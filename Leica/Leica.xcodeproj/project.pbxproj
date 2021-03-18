@@ -10,6 +10,12 @@
 		F90554A626038DB500039978 /* Leica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F905549C26038DB500039978 /* Leica.framework */; };
 		F90554AB26038DB500039978 /* LeicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90554AA26038DB500039978 /* LeicaTests.swift */; };
 		F90554AD26038DB500039978 /* Leica.h in Headers */ = {isa = PBXBuildFile; fileRef = F905549F26038DB500039978 /* Leica.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90554C42603903E00039978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90554C32603903E00039978 /* AppDelegate.swift */; };
+		F90554C82603903E00039978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90554C72603903E00039978 /* ViewController.swift */; };
+		F90554CD2603904000039978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90554CC2603904000039978 /* Assets.xcassets */; };
+		F90554D02603904000039978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90554CE2603904000039978 /* LaunchScreen.storyboard */; };
+		F90554DB2603904000039978 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90554DA2603904000039978 /* ExampleTests.swift */; };
+		F90554E62603904000039978 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90554E52603904000039978 /* ExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +26,20 @@
 			remoteGlobalIDString = F905549B26038DB500039978;
 			remoteInfo = Leica;
 		};
+		F90554D72603904000039978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F905549326038DB400039978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90554C02603903E00039978;
+			remoteInfo = Example;
+		};
+		F90554E22603904000039978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F905549326038DB400039978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90554C02603903E00039978;
+			remoteInfo = Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +49,18 @@
 		F90554A526038DB500039978 /* LeicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90554AA26038DB500039978 /* LeicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeicaTests.swift; sourceTree = "<group>"; };
 		F90554AC26038DB500039978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90554C12603903E00039978 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90554C32603903E00039978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F90554C72603903E00039978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F90554CC2603904000039978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90554CF2603904000039978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F90554D12603904000039978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90554D62603904000039978 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90554DA2603904000039978 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		F90554DC2603904000039978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90554E12603904000039978 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90554E52603904000039978 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
+		F90554E72603904000039978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90554BE2603903E00039978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554D32603904000039978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554DE2603904000039978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +108,9 @@
 			children = (
 				F905549E26038DB500039978 /* Leica */,
 				F90554A926038DB500039978 /* LeicaTests */,
+				F90554C22603903E00039978 /* Example */,
+				F90554D92603904000039978 /* ExampleTests */,
+				F90554E42603904000039978 /* ExampleUITests */,
 				F905549D26038DB500039978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +120,9 @@
 			children = (
 				F905549C26038DB500039978 /* Leica.framework */,
 				F90554A526038DB500039978 /* LeicaTests.xctest */,
+				F90554C12603903E00039978 /* Example.app */,
+				F90554D62603904000039978 /* ExampleTests.xctest */,
+				F90554E12603904000039978 /* ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,17 +156,63 @@
 		F90554B926038E7B00039978 /* Supportings */ = {
 			isa = PBXGroup;
 			children = (
-				F90554BA26038E8F00039978 /* plists */,
+				F90554A026038DB500039978 /* Info.plist */,
 			);
 			path = Supportings;
 			sourceTree = "<group>";
 		};
-		F90554BA26038E8F00039978 /* plists */ = {
+		F90554C22603903E00039978 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				F90554A026038DB500039978 /* Info.plist */,
+				F90555052603908700039978 /* Sources */,
+				F905550B260390BB00039978 /* Resources */,
+				F905550E260390D000039978 /* Supportings */,
 			);
-			path = plists;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F90554D92603904000039978 /* ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F90554DA2603904000039978 /* ExampleTests.swift */,
+				F90554DC2603904000039978 /* Info.plist */,
+			);
+			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		F90554E42603904000039978 /* ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F90554E52603904000039978 /* ExampleUITests.swift */,
+				F90554E72603904000039978 /* Info.plist */,
+			);
+			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		F90555052603908700039978 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F90554C32603903E00039978 /* AppDelegate.swift */,
+				F90554C72603903E00039978 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F905550B260390BB00039978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F90554CC2603904000039978 /* Assets.xcassets */,
+				F90554CE2603904000039978 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F905550E260390D000039978 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				F90554D12603904000039978 /* Info.plist */,
+			);
+			path = Supportings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +265,59 @@
 			productReference = F90554A526038DB500039978 /* LeicaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F90554C02603903E00039978 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90554E82603904000039978 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				F90554BD2603903E00039978 /* Sources */,
+				F90554BE2603903E00039978 /* Frameworks */,
+				F90554BF2603903E00039978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = F90554C12603903E00039978 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F90554D52603904000039978 /* ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90554EB2603904000039978 /* Build configuration list for PBXNativeTarget "ExampleTests" */;
+			buildPhases = (
+				F90554D22603904000039978 /* Sources */,
+				F90554D32603904000039978 /* Frameworks */,
+				F90554D42603904000039978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90554D82603904000039978 /* PBXTargetDependency */,
+			);
+			name = ExampleTests;
+			productName = ExampleTests;
+			productReference = F90554D62603904000039978 /* ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F90554E02603904000039978 /* ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90554EE2603904000039978 /* Build configuration list for PBXNativeTarget "ExampleUITests" */;
+			buildPhases = (
+				F90554DD2603904000039978 /* Sources */,
+				F90554DE2603904000039978 /* Frameworks */,
+				F90554DF2603904000039978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90554E32603904000039978 /* PBXTargetDependency */,
+			);
+			name = ExampleUITests;
+			productName = ExampleUITests;
+			productReference = F90554E12603904000039978 /* ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -174,6 +332,17 @@
 					};
 					F90554A426038DB500039978 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					F90554C02603903E00039978 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F90554D52603904000039978 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F90554C02603903E00039978;
+					};
+					F90554E02603904000039978 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F90554C02603903E00039978;
 					};
 				};
 			};
@@ -192,6 +361,9 @@
 			targets = (
 				F905549B26038DB500039978 /* Leica */,
 				F90554A426038DB500039978 /* LeicaTests */,
+				F90554C02603903E00039978 /* Example */,
+				F90554D52603904000039978 /* ExampleTests */,
+				F90554E02603904000039978 /* ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +377,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F90554A326038DB500039978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554BF2603903E00039978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90554D02603904000039978 /* LaunchScreen.storyboard in Resources */,
+				F90554CD2603904000039978 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554D42603904000039978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554DF2603904000039978 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,6 +424,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F90554BD2603903E00039978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90554C82603903E00039978 /* ViewController.swift in Sources */,
+				F90554C42603903E00039978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554D22603904000039978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90554DB2603904000039978 /* ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90554DD2603904000039978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90554E62603904000039978 /* ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -237,7 +457,28 @@
 			target = F905549B26038DB500039978 /* Leica */;
 			targetProxy = F90554A726038DB500039978 /* PBXContainerItemProxy */;
 		};
+		F90554D82603904000039978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90554C02603903E00039978 /* Example */;
+			targetProxy = F90554D72603904000039978 /* PBXContainerItemProxy */;
+		};
+		F90554E32603904000039978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90554C02603903E00039978 /* Example */;
+			targetProxy = F90554E22603904000039978 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F90554CE2603904000039978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90554CF2603904000039978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F90554AE26038DB500039978 /* Debug */ = {
@@ -292,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -371,7 +612,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Leica/Supportings/plists/Info.plist;
+				INFOPLIST_FILE = Leica/Supportings/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,6 +623,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.Leica;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,7 +638,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Leica/Supportings/plists/Info.plist;
+				INFOPLIST_FILE = Leica/Supportings/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -407,6 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.Leica;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +691,130 @@
 			};
 			name = Release;
 		};
+		F90554E92603904000039978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = Example/Supportings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F90554EA2603904000039978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = Example/Supportings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F90554EC2603904000039978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Debug;
+		};
+		F90554ED2603904000039978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Release;
+		};
+		F90554EF2603904000039978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.ExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Example;
+			};
+			name = Debug;
+		};
+		F90554F02603904000039978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YL8LS5ZJC;
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyunso.ExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -474,6 +841,33 @@
 			buildConfigurations = (
 				F90554B426038DB500039978 /* Debug */,
 				F90554B526038DB500039978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90554E82603904000039978 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90554E92603904000039978 /* Debug */,
+				F90554EA2603904000039978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90554EB2603904000039978 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90554EC2603904000039978 /* Debug */,
+				F90554ED2603904000039978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90554EE2603904000039978 /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90554EF2603904000039978 /* Debug */,
+				F90554F02603904000039978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
