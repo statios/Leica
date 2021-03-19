@@ -7,19 +7,19 @@
 
 import Foundation
 
-public extension String {
+extension String {
   subscript(value: Int) -> Character {
     self[index(at: value)]
   }
 }
 
-public extension String {
+extension String {
   subscript(value: NSRange) -> Substring {
     self[value.lowerBound..<value.upperBound]
   }
 }
 
-public extension String {
+extension String {
   subscript(value: CountableClosedRange<Int>) -> Substring {
     self[index(at: value.lowerBound)...index(at: value.upperBound)]
   }

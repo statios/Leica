@@ -9,6 +9,10 @@ import UIKit
 
 open class LeicaLabel: UILabel {
   
+  public enum Animation {
+    case typing
+  }
+  
   private var cursorText = "│"
   private var cursorIsHidden = true
   
@@ -22,17 +26,29 @@ open class LeicaLabel: UILabel {
     setupUI()
   }
   
-  public func typing(message: String) {
+  public func animate(
+    text: String,
+    style: Animation,
+    loop: Bool = false,
+    completion: (() -> Void)? = nil
+  ) {
     
-    var count = 0
+    switch style {
+    case .typing: typing(text: text, repeats: loop, completion: completion ?? {} )
+    }
+  }
+  
+  private func typing(text: String, repeats: Bool, completion: @escaping (() -> Void)) {
+    
+    var typingCount = 0
     
     Timer.scheduledTimer(withTimeInterval: 0.14, repeats: true) { (t) in
-      guard count != message.count else {
+      guard typingCount != text.count else {
         t.invalidate()
         return
       }
       
-      let string = String(message[...count] + self.cursorText)
+      let string = String(text[...typingCount] + self.cursorText)
       
       let attString = NSMutableAttributedString(
         string: string,
@@ -50,10 +66,10 @@ open class LeicaLabel: UILabel {
       
       self.attributedText = attString
       
-      count += 1
+      typingCount += 1
     }
- 
-    Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (_) in
+    
+    Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (t) in
       guard let attributedText = self.attributedText else { return }
       let attString = NSMutableAttributedString(attributedString: attributedText)
       attString.setAttributes(
